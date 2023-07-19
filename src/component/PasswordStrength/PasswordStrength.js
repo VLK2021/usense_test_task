@@ -30,7 +30,7 @@ const PasswordStrength = ({currentPassword}) => {
                     setPasswordColorThird('gray');
                 }
                 if (hasStrong) {
-                    setPasswordName('hasStrong');
+                    setPasswordName('Strong');
                     setPasswordColorFirst('green');
                     setPasswordColorSecond('green');
                     setPasswordColorThird('green');
